@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Event Update</title>
+</head>
+
+<body>
+    <div class="event">
+        <p id="header">Stand Up Show</p>
+        <h3>Number of available seats: 23</h3>
+
+        <div class="innerDiv">
+            <div style="width: 30%; float:left">
+                <img height="130px" width="180px"
+                    src="https://assets.thehansindia.com/h-upload/feeds/2019/04/25/168075-stand-up-comedy-show.jpg?width=500&height=300"
+                    alt="" srcset="">
+            </div>
+
+            <div style="width: 70%; float:right">
+                <form>
+                    <table>
+                        <tr>
+                            <td> <label for="name" style="float: right;">Name:</label></td>
+                            <td><input type="text" id="name" name="name"><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="email" style="float: right;">Email:</label></td>
+                            <td> <input type="email" id="email" name="email"><br></td>
+                        </tr>
+                         <tr>
+                            <td><label for="number" style="float: right;">Phone No:</label></td>
+                            <td><input type="number" id="phno" name="phno"><br></td>
+                        </tr>
+                        <tr>
+                            <td><label for="number" style="float: right;">No of seats:</label></td>
+
+                            <td><select name="cars" id="cars">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                              </select><br></td>
+                        </tr>
+                        <tr>
+                            <td><label for="name2" style="float: right;">Name of attendee 2:</label></td>
+                            <td><input type="text" id="name2" name="name2"><br></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="float: left;"><input type="button" value="Submit">
+                            <input type="reset" value="Cancel"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
